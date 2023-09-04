@@ -1,17 +1,2 @@
 #!/bin/bash
-
-# Texte à ajouter dans le fichier
-texte="Best School"
-
-# Nom du fichier
-nom_fichier='*\\'"Best School"'\\*$?*****:)'
-
-# Création du fichier avec le contenu
-echo -e "$texte\n" > "$nom_fichier"
-
-# Vérification de la création du fichier
-if [ -e "$nom_fichier" ]; then
-  echo "Le fichier '$nom_fichier' a été créé avec succès."
-else
-  echo "La création du fichier a échoué."
-fi
+echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
