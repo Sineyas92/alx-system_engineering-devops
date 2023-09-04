@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "Best School" >"\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
+nom_fichier='*\\\'"Best School"'\\*$?*****:)'
+
+# Texte à ajouter dans le fichier
+texte="Best School"
+
+# Création du fichier avec le contenu
+echo -e "$texte" > "$nom_fichier"
