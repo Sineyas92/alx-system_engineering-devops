@@ -1,3 +1,4 @@
+
 #!/bin/bash
-# Création du fichier avec le contenu
-echo -e "Best School" > '*\\\'"Best School"'\\*$?*****:)'
+echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
+
